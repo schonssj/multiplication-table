@@ -1,0 +1,32 @@
+.content-table {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-table td{
+    padding: .75rem;
+    border-top: 1px solid black;
+}
+
+.content-table tbody tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.1);
+}
+
+.content-table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#x {
+    width: 95%;
+    padding: 10px;
+}
